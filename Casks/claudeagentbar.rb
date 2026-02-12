@@ -1,5 +1,5 @@
 cask "claudeagentbar" do
-  version "1.0"
+  version "0.1"
   sha256 "PLACEHOLDER"
 
   url "https://github.com/artemnovichkov/ClaudeAgentBar/releases/download/v#{version}/ClaudeAgentBar.zip",
