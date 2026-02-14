@@ -1,6 +1,6 @@
 cask "claudeagentbar" do
-  version "0.1"
-  sha256 "799f3357ac3a4959379b24cf9f195cd28622fadf8c4bd1045393839ac43dad01"
+  version "0.1.1"
+  sha256 "f15ef37b29c8f5a12f925c71b50b0c0c7e269a8c1a713b2d89462eafbb302188"
 
   url "https://github.com/artemnovichkov/ClaudeAgentBar/releases/download/v#{version}/ClaudeAgentBar.zip",
       verified: "github.com/artemnovichkov/ClaudeAgentBar/"
