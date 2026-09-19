@@ -28,5 +28,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "Formula/${FORMULA}.rb"
+          git diff --cached --quiet && { echo "No changes"; exit 0; }
           git commit -m "Update ${FORMULA} to ${VERSION}"
           git push
